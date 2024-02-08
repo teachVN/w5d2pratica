@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Scope;
 
+import java.time.LocalTime;
 import java.util.List;
 
 @Configuration
@@ -113,6 +114,14 @@ public class AppConfig {
         tavolo.setCostoCoperto(Double.parseDouble(coperto));
         return tavolo;
     }
+
+//    @Bean("order1")
+//    public Order order(){
+//        Order order = new Order();
+//        order.setOrderState(OrderState.IN_CORSO);
+//        order.setOraOrdine(LocalTime.now());
+//        return order;
+//    }
 
 
 }

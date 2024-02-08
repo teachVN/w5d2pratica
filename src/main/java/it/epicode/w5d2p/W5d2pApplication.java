@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class W5d2pApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(W5d2pApplication.class, args);
 	}
 
